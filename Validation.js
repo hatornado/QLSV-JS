@@ -2,6 +2,8 @@ function Validation()
 {
     this.KiemTraRong = function (value)
     {
+        console.log(value)
+        console.log("12321321213321")
         if(value.trim() === "")
         {
             return true;

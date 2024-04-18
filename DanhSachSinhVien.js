@@ -3,6 +3,7 @@ function DanhSachSinhVien ()
     this.DSSV = [];
     this.ThemSinhVien = function (svThem)
     {
+        console.log(svThem)
         this.DSSV.push(svThem);
     }
     this.XoaSinhVien = function (lstSVXoa)
