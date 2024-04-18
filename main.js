@@ -99,7 +99,7 @@ function ThemSinhVien()
 
 function KiemTraDauVaoRong(ID,value)
 {
-    //Kiểm tra mã sinh viên rổng
+    //Kiểm tra mã sinh viên rỗng
     if(validate.KiemTraRong(value) == true)
     {
         DomID(ID).style.borderColor = "red"; 
